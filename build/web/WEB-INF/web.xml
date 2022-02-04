@@ -36,6 +36,30 @@
         <servlet-name>BookBean</servlet-name>
         <servlet-class>beans.BookBean</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AddBook</servlet-name>
+        <servlet-class>servlets.AddBook</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddBookForm</servlet-name>
+        <servlet-class>servlets.AddBookForm</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddLibrarian</servlet-name>
+        <servlet-class>servlets.AddLibrarian</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteBook</servlet-name>
+        <servlet-class>servlets.DeleteBook</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BookDao</servlet-name>
+        <servlet-class>dao.BookDao</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteLibrarian</servlet-name>
+        <servlet-class>servlets.DeleteLibrarian</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>AdminLogin</servlet-name>
         <url-pattern>/AdminLogin</url-pattern>
@@ -71,6 +95,30 @@
     <servlet-mapping>
         <servlet-name>BookBean</servlet-name>
         <url-pattern>/BookBean</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddBook</servlet-name>
+        <url-pattern>/AddBook</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddBookForm</servlet-name>
+        <url-pattern>/AddBookForm</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddLibrarian</servlet-name>
+        <url-pattern>/AddLibrarian</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteBook</servlet-name>
+        <url-pattern>/DeleteBook</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BookDao</servlet-name>
+        <url-pattern>/BookDao</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteLibrarian</servlet-name>
+        <url-pattern>/DeleteLibrarian</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
