@@ -12,6 +12,30 @@
         <servlet-name>AddLibrarianForm</servlet-name>
         <servlet-class>servlets.AddLibrarianForm</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>DB</servlet-name>
+        <servlet-class>dao.DB</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LibrarianDao</servlet-name>
+        <servlet-class>dao.LibrarianDao</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LibrarianBean</servlet-name>
+        <servlet-class>beans.LibrarianBean</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ViewLibrarian</servlet-name>
+        <servlet-class>servlets.ViewLibrarian</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>IssueBookBean</servlet-name>
+        <servlet-class>beans.IssueBookBean</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BookBean</servlet-name>
+        <servlet-class>beans.BookBean</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>AdminLogin</servlet-name>
         <url-pattern>/AdminLogin</url-pattern>
@@ -23,6 +47,30 @@
     <servlet-mapping>
         <servlet-name>AddLibrarianForm</servlet-name>
         <url-pattern>/AddLibrarianForm</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DB</servlet-name>
+        <url-pattern>/DB</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LibrarianDao</servlet-name>
+        <url-pattern>/LibrarianDao</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LibrarianBean</servlet-name>
+        <url-pattern>/LibrarianBean</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ViewLibrarian</servlet-name>
+        <url-pattern>/ViewLibrarian</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>IssueBookBean</servlet-name>
+        <url-pattern>/IssueBookBean</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BookBean</servlet-name>
+        <url-pattern>/BookBean</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
