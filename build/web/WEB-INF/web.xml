@@ -60,6 +60,46 @@
         <servlet-name>DeleteLibrarian</servlet-name>
         <servlet-class>servlets.DeleteLibrarian</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>EditLibrarian</servlet-name>
+        <servlet-class>servlets.EditLibrarian</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EditLibrarianForm</servlet-name>
+        <servlet-class>servlets.EditLibrarianForm</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>IssueBook</servlet-name>
+        <servlet-class>servlets.IssueBook</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>IssueBookForm</servlet-name>
+        <servlet-class>servlets.IssueBookForm</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LibrarianLogin</servlet-name>
+        <servlet-class>servlets.LibrarianLogin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LogoutLibrarian</servlet-name>
+        <servlet-class>servlets.LogoutLibrarian</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ReturnBook</servlet-name>
+        <servlet-class>servlets.ReturnBook</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ReturnBookForm</servlet-name>
+        <servlet-class>servlets.ReturnBookForm</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ViewBook</servlet-name>
+        <servlet-class>servlets.ViewBook</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ViewIssuedBook</servlet-name>
+        <servlet-class>servlets.ViewIssuedBook</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>AdminLogin</servlet-name>
         <url-pattern>/AdminLogin</url-pattern>
@@ -119,6 +159,46 @@
     <servlet-mapping>
         <servlet-name>DeleteLibrarian</servlet-name>
         <url-pattern>/DeleteLibrarian</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditLibrarian</servlet-name>
+        <url-pattern>/EditLibrarian</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditLibrarianForm</servlet-name>
+        <url-pattern>/EditLibrarianForm</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>IssueBook</servlet-name>
+        <url-pattern>/IssueBook</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>IssueBookForm</servlet-name>
+        <url-pattern>/IssueBookForm</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LibrarianLogin</servlet-name>
+        <url-pattern>/LibrarianLogin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LogoutLibrarian</servlet-name>
+        <url-pattern>/LogoutLibrarian</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ReturnBook</servlet-name>
+        <url-pattern>/ReturnBook</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ReturnBookForm</servlet-name>
+        <url-pattern>/ReturnBookForm</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ViewBook</servlet-name>
+        <url-pattern>/ViewBook</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ViewIssuedBook</servlet-name>
+        <url-pattern>/ViewIssuedBook</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
